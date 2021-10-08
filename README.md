@@ -2,10 +2,10 @@
 Repositorio donde añadiremos los cambios a nuestro proyecto para la materia "Programación orientada a Objetos"
 
 # Miembros del equipo:
-  - Ehuan Avila Isaac Mauricio
-  - Fernandez Mena Ariel Jesus
-  - Gamboa Campos Wilberth Manuel
-  - Gomez Gomez Horacio Jahir
+  - Wilberth Manzur
+  - Jaroth Moo
+  - Oscar Moreno
+  - Jacob Uc
   
 # Objetivo del proyecto:
 
