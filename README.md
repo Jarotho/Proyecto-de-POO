@@ -1,10 +1,11 @@
-# Proyecto-de-POO
-Repositorio dónde se añadirán las actualizaciones de nuestro proyecto para la materia de "Programación Orientada a Objetos"
+# Proyecto de Poo
+Repositorio donde añadiremos los cambios a nuestro proyecto para la materia "Programación orientada a Objetos"
 
-# Integrantes del equipo
-#Wilberth Manzur
-#Jaroth Moo
-#Daniel Moreno
-#Jacob Uc
+# Miembros del equipo:
+  - Ehuan Avila Isaac Mauricio
+  - Fernandez Mena Ariel Jesus
+  - Gamboa Campos Wilberth Manuel
+  - Gomez Gomez Horacio Jahir
+  
+# Objetivo del proyecto:
 
-# Descripción del proyecto
