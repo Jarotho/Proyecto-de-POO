@@ -2,7 +2,7 @@
 Repositorio donde añadiremos los cambios a nuestro proyecto para la materia "Programación orientada a Objetos"
 
 # Miembros del equipo:
-  - Wilberth Manzur
+  - Wilbert Manzur
   - Jaroth Moo
   - Oscar Moreno
   - Jacob Uc
