@@ -18,8 +18,6 @@
 |6| El usuario sale de la aplicación. |
 |Postcondición| La información del usuario se guardará en la base de datos. | 
 
-**Excepciones**
-
 |excepciones| |
 |---|---|
 |1|El usuario puede ingresar un ID que ya esté en uso, por lo que deberá ingresar uno que este desocupado o libre.  |
@@ -29,6 +27,7 @@
 
 
 |Caso de uso| Escoger un personaje y su dificultad para jugar |
+|---|---|
 |Actores| Usuario, base de datos, sistema |
 |Propósito| Hacer que el usuario inicie una sesión de juego. |
 |Resumen| El usuario ingresa a la aplicación, escoge un personaje, selecciona una dificultad disponible y responde la ronda de preguntas. |
@@ -51,8 +50,6 @@
 |12| El usuario sale de la aplicación. |
 |Postcondición| La experiencia obtenida de las preguntas y las estrellas se guardarán en la base de datos para poder desbloquear más personajes. | 
 
-**Excepciones**
-
 |excepciones| |
 |---|---|
 |1|El usuario escoge un personaje con una dificultad aún no desbloqueada. Podrá desbloquearla únicamente si cuenta con las suficientes estrellas requeridas por el nivel.  |
@@ -62,6 +59,7 @@
 
 
 |Caso de uso| Desbloquear un nuevo nivel de dificultad de personaje |
+|---|---|
 |Actores| Usuario, base de datos, sistema |
 |Propósito| Hacer que el usuario pueda desbloquear y jugar un nuevo nivel de dificultad de un personaje |
 |Resumen| Tras haber obtenido una estrella (completando el nivel “fácil” de algún personaje), el usuario puede desbloquear el nivel de dificultad “medio” de ese mismo personaje o algún otro personaje que ya haya completado el nivel “fácil”. |
@@ -81,14 +79,13 @@
 |9| El usuario regresa al menú principal y abandona la aplicación. |
 |Postcondición| Si responde correctamente bien el 80% de las preguntas, obtendrá las dos estrellas que se otorgan en el nivel de dificultad “medio”. | 
 
-**Excepciones**
-
 |excepciones| |
 |---|---|
 |1| En caso de que el personaje no haya sido completado el nivel fácil, no se podrá desbloquear el nivel “medio”. |
 
 
 |Caso de uso| Desbloquear un personaje |
+|---|---|
 |Actores| Usuario, base de datos, sistema |
 |Propósito| Hacer que el usuario desbloquee un personae |
 |Resumen| El usuario al haber obtenido las tres estrellas puede desbloquear un personaje nuevo para poder sus preguntas|
@@ -104,8 +101,6 @@
 |5| |
 |6| |
 |Postcondición| | 
-
-**Excepciones**
 
 |excepciones| |
 |---|---|
