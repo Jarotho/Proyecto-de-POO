@@ -5,8 +5,7 @@
 |RF001|Registro de usuarios|
 |---|---|
 |Descripción| El sistema le permite al usuario la creación de una cuenta mediante un ID y una contraseña, esta cuenta será única y permitirá al usuario guardar su progreso en ella. |
-|Comentarios| El ID será único. El sistema verificará que no exista otro igual para poder seguir con el registro del usuario, para ello, el sistema avisará al usuario que el ID ya está en uso y deberá de ingresar otro. 
-El ID solamente podrá estar conformado por letras y números. |  
+|Comentarios| El ID será único. El sistema verificará que no exista otro igual para poder seguir con el registro del usuario, para ello, el sistema avisará al usuario que el ID ya está en uso y deberá de ingresar otro. El ID solamente podrá estar conformado por letras y números. |  
 
 |RF002|Personaje|
 |---|---|
@@ -42,7 +41,6 @@ El ID solamente podrá estar conformado por letras y números. |
 |---|---|
 |Descripción| El usuario podrá acceder a una pestaña la cual le permitirá observar su ranking con respecto a otros usuarios del programa mediante la experiencia obtenida. |
 |Comentarios| El usuario puede subir de ranking únicamente por medio de la experiencia obtenida |  
-
 
 ##No-funcionales
 
