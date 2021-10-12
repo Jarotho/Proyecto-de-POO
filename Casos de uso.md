@@ -96,7 +96,7 @@ __Secuencia principal__
 |Caso de uso| Desbloquear un personaje en el álbum |
 |---|---|
 |Actores| Usuario, base de datos, sistema |
-|Propósito| Hacer que el usuario desbloquee un personae en el álbum |
+|Propósito| Hacer que el usuario desbloquee un personaje del álbum. |
 |Resumen| El usuario al haber obtenido las tres estrellas puede desbloquear un personaje nuevo para poder sus preguntas|
 |Precondición| Haber contestado correctamente al menos el 80% de las preguntas de un personaje del nivel “fácil” y estar ejecutando el programa con su sesión iniciada.| 
 
