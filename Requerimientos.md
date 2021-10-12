@@ -42,30 +42,35 @@
 |Descripción| El usuario podrá acceder a una pestaña la cual le permitirá observar su ranking con respecto a otros usuarios del programa mediante la experiencia obtenida. |
 |Comentarios| El usuario puede subir de ranking únicamente por medio de la experiencia obtenida |  
 
-##No-funcionales
+##No funcionales
 
-|RNF001| |
+|RNF001| Interfaz gráfica de usuario |
 |---|---|
-|Descripción| |
+|Descripción| La interfaz gráfica es intuitiva para cualquier tipo de usuario (nuevo o ya registrado), por lo que resulta fácil su navegación. Además, es estética y llamativa al usuario. |
+|Comentarios| No se requiere de experiencia previa con el sistema, por lo que un usuario nuevo debería navegar con facilidad en el sistema. |  
+
+|RNF002| Tiempo de respuesta|
+|---|---|
+|Descripción| La responsividad en el sistema es óptima y las acciones elegidas por el usuario deben realizarse en 0.75 segundos o inferior. |
+|Comentarios| Detalles|  
+
+|RNF003| Seguridad de las credenciales del usuario|
+|---|---|
+|Descripción| El sistema guardara los datos del usuario dentro de la base de datos 
+bien las credenciales del usuario (proporcionadas al crear su cuenta) para que nadie más acceda a esta información. |
+|Comentarios| Por ejemplo, cuando ocurren ataques y filtran todos los datos de los usuarios. |  
+
+|RNF004| Optimización|
+|---|---|
+|Descripción|La aplicación no deberá consumir demasiados recursos, por lo que podrá ejecutarse en equipos de cómputo más discretos.  
+(No sé si se deba especificar el hardware mínimo). 
+Aproximación:  
+-CPU de 4 núcleos min y con gráficos integrados 
+-4gb de RAM 
+-Windows 10 |
 |Comentarios| |  
 
-|RNF002| |
+|RNF005| Mantenibilidad|
 |---|---|
-|Descripción| |
+|Descripción| El sistema es implementado de forma que pueda ser modificado fácilmente ya que en un futuro se pueden realizar actualizaciones para añadir alguna nueva mecánica o nuevo contenido (como son nuevos personajes, diferentes recompensas, etc.). |
 |Comentarios| |  
-
-|RNF003| |
-|---|---|
-|Descripción| |
-|Comentarios| |  
-
-|RNF004| |
-|---|---|
-|Descripción| |
-|Comentarios| |  
-
-|RNF005| |
-|---|---|
-|Descripción| |
-|Comentarios| |  
-
