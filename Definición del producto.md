@@ -5,9 +5,9 @@ Ofrecer una manera diferente para la comunidad de poner a prueba sus conocimient
 Comunidad del videojuego “Super Smash Bros” y jugadores nuevos que deseen conocer más de los personajes.
 
 # Elementos de creatividad 
--El programa permite al usuario obtener coleccionables como fotos, información y datos del personaje.
--El programa permite re-jugabilidad al usuario al desbloquear los personajes para obtener más coleccionables.
--El programa incluye dos sistemas de progresión los cuales son la obtención de experiencia y tokens que son estrellas para desbloquear personajes.
+- El programa permite al usuario obtener coleccionables como fotos, información y datos del personaje.
+- El programa permite re-jugabilidad al usuario al desbloquear los personajes para obtener más coleccionables.
+- El programa incluye dos sistemas de progresión los cuales son la obtención de experiencia y tokens que son estrellas para desbloquear personajes.
 - El programa incluye un sistema de rankings.
 
 # Razón del producto 
