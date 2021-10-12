@@ -8,4 +8,4 @@ Repositorio donde añadiremos los cambios a nuestro proyecto para la materia "Pr
   - Jacob Uc
   
 # Objetivo del proyecto:
-Desarrollar (Crear) un videojuego para las personas entusiastas de la saga Super Smash Bros implementando el lenguaje de programación Java donde se ponga a prueba el conocimiento y se aprenda de una forma dinámica. 
+Desarrollar un videojuego para las personas entusiastas de la saga Super Smash Bros implementando el lenguaje de programación Java donde se ponga a prueba el conocimiento y se aprenda de una forma dinámica. 
