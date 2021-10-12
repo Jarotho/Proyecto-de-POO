@@ -20,7 +20,7 @@ __Secuencia principal__
 |6| El usuario sale de la aplicación. |
 |Postcondición| La información del usuario se guardará en la base de datos. | 
 
-|excepciones| |
+|Excepciones| |
 |---|---|
 |1|El usuario puede ingresar un ID que ya esté en uso, por lo que deberá ingresar uno que este desocupado o libre.  |
 |2| El usuario ingresa un ID que contiene caracteres como “@” o “#”. Este ID será invalido. |
@@ -89,31 +89,33 @@ __Secuencia principal__
 |---|---|
 |1| En caso de que el personaje no haya sido completado el nivel fácil, no se podrá desbloquear el nivel “medio”. |
 
-
 ***Caso de uso No.4***
 
 |Caso de uso| Desbloquear un personaje |
 |---|---|
 |Actores| Usuario, base de datos, sistema |
-|Propósito| Hacer que el usuario desbloquee un personae |
+|Propósito| Hacer que el usuario desbloquee un personae en el álbum |
 |Resumen| El usuario al haber obtenido las tres estrellas puede desbloquear un personaje nuevo para poder sus preguntas|
+|Precondición| Haber contestado correctamente al menos el 80% de las preguntas de un personaje del nivel “fácil” y estar ejecutando el programa con su sesión iniciada.| 
 
 __Secuencia principal__
 
 |Pasos| Secuencia |
 |---|---|
-|1| |
-|2| |
-|3| |
-|4| |
-|5| |
-|6| |
-|Postcondición| | 
+|1| El usuario ingresa al menú principal. |
+|2| El usuario selecciona la opción “jugar”. |
+|3| El usuario selecciona un personaje. |
+|4| El usuario selecciona la dificultad “medio”. |
+|5| El sistema desbloquea el nivel de dificultad seleccionado. |
+|6| El sistema inicia el cuestionario. |
+|7| El usuario responde las preguntas. |
+|8| El usuario termina la ronda de preguntas. |
+|9| El usuario regresa al menú principal y abandona la aplicación. |
 
-|excepciones| |
+|Postcondición| La base de datos registra que el usuario desbloqueó un nuevo personaje.  | 
+
+|excepciones| El usuario intenta desbloquear en el album un personaje que aún no ha sido completado los 3 niveles de dificultad, por lo que el sistema rechazara esta petición.|
 |---|---|
-|1| |
-|2| |
-|3| |
-|4| |
+|1|En caso de que el personaje no haya sido completado el nivel fácil, no se podrá desbloquear el nivel “medio”. |
+
 
