@@ -9,6 +9,7 @@
 **Secuencia principal**
 
 |Pasos| Secuencia |
+|---|---|
 |1| El usuario ingresa por primera vez al sistema, este le muestra en pantalla los campos requeridos para crear una cuenta. |
 |2| El usuario ingresa un ID y una contraseña en los campos solicitados. |
 |3| El sistema ejecuta el tutorial para un nuevo usuario. |
@@ -19,6 +20,8 @@
 
 **Excepciones**
 
+|excepciones|
+|---|---|
 |1|El usuario puede ingresar un ID que ya esté en uso, por lo que deberá ingresar uno que este desocupado o libre.  |
 |2| El usuario ingresa un ID que contiene caracteres como “@” o “#”. Este ID será invalido. |
 |3| El usuario cierra la aplicación sin finalizar el registro, por lo que tendrá que completarlo la próxima vez que ejecute la aplicación. |
@@ -33,6 +36,7 @@
 **Secuencia principal**
 
 |Pasos| Secuencia |
+|---|---|
 |1| El usuario ingresa a la aplicación. |
 |2| El sistema muestra el menú principal. |
 |3| El usuario selecciona la opción “jugar”. |
@@ -49,6 +53,8 @@
 
 **Excepciones**
 
+|excepciones|
+|---|---|
 |1|El usuario escoge un personaje con una dificultad aún no desbloqueada. Podrá desbloquearla únicamente si cuenta con las suficientes estrellas requeridas por el nivel.  |
 |2| En caso de que el usuario no responda bien una pregunta, se le indicará que es incorrecta su opción seleccionada. |
 |3| El sistema le indica al usuario que no obtuvo la estrella, pues el usuario no respondió correctamente al menos, el 80% de las preguntas. |
@@ -61,7 +67,9 @@
 |Resumen| Tras haber obtenido una estrella (completando el nivel “fácil” de algún personaje), el usuario puede desbloquear el nivel de dificultad “medio” de ese mismo personaje o algún otro personaje que ya haya completado el nivel “fácil”. |
 
 **Secuencia principal**
+
 |Pasos| Secuencia |
+|---|---|
 |1| El usuario ingresa al menú principal. |
 |2| El usuario selecciona la opción “jugar”. |
 |3| El usuario selecciona un personaje. |
@@ -74,6 +82,9 @@
 |Postcondición| Si responde correctamente bien el 80% de las preguntas, obtendrá las dos estrellas que se otorgan en el nivel de dificultad “medio”. | 
 
 **Excepciones**
+
+|excepciones|
+|---|---|
 |1| En caso de que el personaje no haya sido completado el nivel fácil, no se podrá desbloquear el nivel “medio”. |
 
 
@@ -83,7 +94,9 @@
 |Resumen| El usuario al haber obtenido las tres estrellas puede desbloquear un personaje nuevo para poder sus preguntas|
 
 **Secuencia principal**
+
 |Pasos| Secuencia |
+|---|---|
 |1| |
 |2| |
 |3| |
@@ -93,6 +106,9 @@
 |Postcondición| | 
 
 **Excepciones**
+
+|excepciones|
+|---|---|
 |1| |
 |2| |
 |3| |
