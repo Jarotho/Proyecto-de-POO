@@ -1,11 +1,13 @@
 # Casos de uso
 
 |Caso de uso| Registro de usuario |
+|---|---|
 |Actores| Usuario, base de datos, sistema |
 |Propósito| Registrar al usuario |
 |Resumen| El usuario entra por primera vez al juego, crea su cuenta y completa el tutorial. |
 
 **Secuencia principal**
+
 |Pasos| Secuencia |
 |1| El usuario ingresa por primera vez al sistema, este le muestra en pantalla los campos requeridos para crear una cuenta. |
 |2| El usuario ingresa un ID y una contraseña en los campos solicitados. |
@@ -16,6 +18,7 @@
 |Postcondición| La información del usuario se guardará en la base de datos. | 
 
 **Excepciones**
+
 |1|El usuario puede ingresar un ID que ya esté en uso, por lo que deberá ingresar uno que este desocupado o libre.  |
 |2| El usuario ingresa un ID que contiene caracteres como “@” o “#”. Este ID será invalido. |
 |3| El usuario cierra la aplicación sin finalizar el registro, por lo que tendrá que completarlo la próxima vez que ejecute la aplicación. |
@@ -28,6 +31,7 @@
 |Resumen| El usuario ingresa a la aplicación, escoge un personaje, selecciona una dificultad disponible y responde la ronda de preguntas. |
 
 **Secuencia principal**
+
 |Pasos| Secuencia |
 |1| El usuario ingresa a la aplicación. |
 |2| El sistema muestra el menú principal. |
@@ -44,6 +48,7 @@
 |Postcondición| La experiencia obtenida de las preguntas y las estrellas se guardarán en la base de datos para poder desbloquear más personajes. | 
 
 **Excepciones**
+
 |1|El usuario escoge un personaje con una dificultad aún no desbloqueada. Podrá desbloquearla únicamente si cuenta con las suficientes estrellas requeridas por el nivel.  |
 |2| En caso de que el usuario no responda bien una pregunta, se le indicará que es incorrecta su opción seleccionada. |
 |3| El sistema le indica al usuario que no obtuvo la estrella, pues el usuario no respondió correctamente al menos, el 80% de las preguntas. |
