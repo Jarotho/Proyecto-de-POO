@@ -112,7 +112,7 @@ __Secuencia principal__
 |8| El usuario termina la ronda de preguntas. |
 |9| El usuario regresa al menú principal y abandona la aplicación. |
 
-|Postcondición| La base de datos registra que el usuario desbloqueó un nuevo personaje.  | 
+|Postcondición| La base de datos registra que el usuario desbloqueó un nuevo personaje. | 
 
 |excepciones| El usuario intenta desbloquear en el album un personaje que aún no ha sido completado los 3 niveles de dificultad, por lo que el sistema rechazara esta petición.|
 |---|---|
