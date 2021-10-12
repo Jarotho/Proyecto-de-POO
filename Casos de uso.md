@@ -1,5 +1,7 @@
 # Casos de uso
 
+##Caso de uso No.1
+
 |Caso de uso| Registro de usuario |
 |---|---|
 |Actores| Usuario, base de datos, sistema |
@@ -25,6 +27,7 @@
 |3| El usuario cierra la aplicación sin finalizar el registro, por lo que tendrá que completarlo la próxima vez que ejecute la aplicación. |
 |4| El usuario cierra la aplicación sin finalizar el tutorial, por lo que tendrá que completarlo la próxima vez que inicie el juego con su cuenta. |
 
+##Caso de uso No.2
 
 |Caso de uso| Escoger un personaje y su dificultad para jugar |
 |---|---|
@@ -57,6 +60,7 @@
 |3| El sistema le indica al usuario que no obtuvo la estrella, pues el usuario no respondió correctamente al menos, el 80% de las preguntas. |
 |4| En caso de que el usuario cierre la aplicación mientras está respondiendo el cuestionario, no se guardará su progreso, por lo que el usuario tendrá que iniciar desde cero el cuestionario cuando vuelva a iniciar el programa.  |
 
+##Caso de uso No.3
 
 |Caso de uso| Desbloquear un nuevo nivel de dificultad de personaje |
 |---|---|
@@ -83,6 +87,7 @@
 |---|---|
 |1| En caso de que el personaje no haya sido completado el nivel fácil, no se podrá desbloquear el nivel “medio”. |
 
+##Caso de uso No.4
 
 |Caso de uso| Desbloquear un personaje |
 |---|---|
