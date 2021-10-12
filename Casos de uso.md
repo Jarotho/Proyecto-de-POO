@@ -35,6 +35,7 @@ __Secuencia principal__
 |Actores| Usuario, base de datos, sistema |
 |Propósito| Hacer que el usuario inicie una sesión de juego. |
 |Resumen| El usuario ingresa a la aplicación, escoge un personaje, selecciona una dificultad disponible y responde la ronda de preguntas. |
+|Precondición| El usuario debe tener una cuenta creada previamente.|
 
 __Secuencia principal__
 
