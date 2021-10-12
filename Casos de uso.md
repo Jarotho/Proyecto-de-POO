@@ -93,7 +93,7 @@ __Secuencia principal__
 
 ***Caso de uso No.4***
 
-|Caso de uso| Desbloquear un personaje |
+|Caso de uso| Desbloquear un personaje en el álbum |
 |---|---|
 |Actores| Usuario, base de datos, sistema |
 |Propósito| Hacer que el usuario desbloquee un personae en el álbum |
