@@ -20,7 +20,7 @@
 
 **Excepciones**
 
-|excepciones|
+|excepciones| |
 |---|---|
 |1|El usuario puede ingresar un ID que ya esté en uso, por lo que deberá ingresar uno que este desocupado o libre.  |
 |2| El usuario ingresa un ID que contiene caracteres como “@” o “#”. Este ID será invalido. |
@@ -53,7 +53,7 @@
 
 **Excepciones**
 
-|excepciones|
+|excepciones| |
 |---|---|
 |1|El usuario escoge un personaje con una dificultad aún no desbloqueada. Podrá desbloquearla únicamente si cuenta con las suficientes estrellas requeridas por el nivel.  |
 |2| En caso de que el usuario no responda bien una pregunta, se le indicará que es incorrecta su opción seleccionada. |
@@ -83,7 +83,7 @@
 
 **Excepciones**
 
-|excepciones|
+|excepciones| |
 |---|---|
 |1| En caso de que el personaje no haya sido completado el nivel fácil, no se podrá desbloquear el nivel “medio”. |
 
@@ -107,7 +107,7 @@
 
 **Excepciones**
 
-|excepciones|
+|excepciones| |
 |---|---|
 |1| |
 |2| |
