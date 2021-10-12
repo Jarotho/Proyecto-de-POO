@@ -56,18 +56,12 @@
 
 |RNF003| Seguridad de las credenciales del usuario|
 |---|---|
-|Descripción| El sistema guardara los datos del usuario dentro de la base de datos 
-bien las credenciales del usuario (proporcionadas al crear su cuenta) para que nadie más acceda a esta información. |
+|Descripción| El sistema guardara los datos del usuario dentro de la base de datos bien las credenciales del usuario (proporcionadas al crear su cuenta) para que nadie más acceda a esta información. |
 |Comentarios| Por ejemplo, cuando ocurren ataques y filtran todos los datos de los usuarios. |  
 
 |RNF004| Optimización|
 |---|---|
-|Descripción|La aplicación no deberá consumir demasiados recursos, por lo que podrá ejecutarse en equipos de cómputo más discretos.  
-(No sé si se deba especificar el hardware mínimo). 
-Aproximación:  
--CPU de 4 núcleos min y con gráficos integrados 
--4gb de RAM 
--Windows 10 |
+|Descripción|La aplicación no deberá consumir demasiados recursos, por lo que podrá ejecutarse en equipos de cómputo más discretos. Aproximación: CPU de 4 núcleos mínimo con gráficos integrados, 4gb de RAM, Windows 10 |
 |Comentarios| |  
 
 |RNF005| Mantenibilidad|
