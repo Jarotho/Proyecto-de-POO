@@ -44,7 +44,7 @@ El ID solamente podrá estar conformado por letras y números. |
 |Comentarios| El usuario puede subir de ranking únicamente por medio de la experiencia obtenida |  
 
 
-##No funcionales
+##No-funcionales
 
 |RNF001| |
 |---|---|
