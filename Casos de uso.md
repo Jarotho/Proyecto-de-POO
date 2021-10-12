@@ -70,6 +70,7 @@ __Secuencia principal__
 |Actores| Usuario, base de datos, sistema |
 |Propósito| Hacer que el usuario pueda desbloquear y jugar un nuevo nivel de dificultad de un personaje |
 |Resumen| Tras haber obtenido una estrella (completando el nivel “fácil” de algún personaje), el usuario puede desbloquear el nivel de dificultad “medio” de ese mismo personaje o algún otro personaje que ya haya completado el nivel “fácil”. |
+|Precondición| Haber contestado correctamente al menos el 80% de las preguntas de un personaje del nivel “fácil” y estar ejecutando el programa con su sesión iniciada.| 
 
 __Secuencia principal__
 
