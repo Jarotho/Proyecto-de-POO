@@ -1,6 +1,6 @@
 |Miembros del equipo| Rol asignado|
 |---|---|
-|Wilbert Manzur| Desarrollador |
-|Jaroth Moo| Desarrollador y Diseñador |
-|Daniel Moreno| Lider de equipo y desarrollador |
-|Jacob Uc| Desarrollador |
+|Wilbert Manzur| Desarrollador, documentador |
+|Jaroth Moo| Desarrollador, diseñador de la interfaz de usuario |
+|Daniel Moreno| Lider de equipo, administrador de la base de datos, desarrollador |
+|Jacob Uc| Desarrollador, analista del software |
