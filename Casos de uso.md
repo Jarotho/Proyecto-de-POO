@@ -35,7 +35,7 @@ __Secuencia principal__
 |Actores| Usuario, base de datos, sistema |
 |Propósito| Hacer que el usuario inicie una sesión de juego. |
 |Resumen| El usuario ingresa a la aplicación, escoge un personaje, selecciona una dificultad disponible y responde la ronda de preguntas. |
-|Precondición| El usuario debe tener una cuenta creada previamente.|
+|Precondición| El usuario debe tener una cuenta creada. |
 
 __Secuencia principal__
 
@@ -97,27 +97,50 @@ __Secuencia principal__
 |---|---|
 |Actores| Usuario, base de datos, sistema |
 |Propósito| Hacer que el usuario desbloquee un personaje del álbum. |
-|Resumen| El usuario al haber obtenido las tres estrellas puede desbloquear un personaje nuevo para poder sus preguntas|
-|Precondición| Haber contestado correctamente al menos el 80% de las preguntas de un personaje del nivel “fácil” y estar ejecutando el programa con su sesión iniciada.| 
+|Resumen| El usuario al haber completado los 3 niveles de dificultad de un personaje puede desbloquearlo (la figura) desde el “álbum de personajes” e ir ampliando su colección.|
+|Precondición| Haber concluido los 3 niveles de dificultad de un personaje. | 
 
 __Secuencia principal__
 
 |Pasos| Secuencia |
 |---|---|
 |1| El usuario ingresa al menú principal. |
-|2| El usuario selecciona la opción “jugar”. |
-|3| El usuario selecciona un personaje. |
-|4| El usuario selecciona la dificultad “medio”. |
-|5| El sistema desbloquea el nivel de dificultad seleccionado. |
-|6| El sistema inicia el cuestionario. |
-|7| El usuario responde las preguntas. |
-|8| El usuario termina la ronda de preguntas. |
-|9| El usuario regresa al menú principal y abandona la aplicación. |
+|2| Selecciona la opción “Álbum de personajes”. |
+|3| Selecciona un personaje. |
+|4| Selecciona la opción “Desbloquear personaje”. |
+|5| El sistema desbloquea el nuevo personaje. |
+|6| La base de datos registra que el usuario desbloqueó un nuevo personaje.  |
+|7| El usuario visualiza su nuevo personaje en el álbum |
+|8| El usuario regresa al menú principal y abandona la aplicación. |
 
 |Postcondición| La base de datos registra que el usuario desbloqueó un nuevo personaje. | 
 
-|excepciones| El usuario intenta desbloquear en el album un personaje que aún no ha sido completado los 3 niveles de dificultad, por lo que el sistema rechazara esta petición.|
+|excepciones| |
 |---|---|
-|1|En caso de que el personaje no haya sido completado el nivel fácil, no se podrá desbloquear el nivel “medio”. |
+|1| El usuario intenta desbloquear en el album un personaje que aún no ha sido completado los 3 niveles de dificultad, por lo que el sistema rechazará esta petición.|
 
+
+***Caso de uso No.5***
+
+|Caso de uso| Visualizar el ranking  |
+|---|---|
+|Actores| Usuario, base de datos, sistema |
+|Propósito| Hacer que el usuario visualice el ranking de los jugadores con mayor experiencia acumulada. |
+|Resumen| El usuario quiere ver los jugadores con mayor experiencia acumulada así que entra al ranking.|
+|Precondición| El usuario debe tener una cuenta creada. | 
+
+__Secuencia principal__
+
+|Pasos| Secuencia |
+|---|---|
+|1| El usuario ingresa al menú principal. |
+|2| Selecciona la opción “Ranking”. |
+|3| El sistema muestra en pantalla la lista de los jugadores con más experiencia acumulada. |
+|4| El usuario regresa hacia el menú principal y abandona la aplicación. |
+
+|Postcondición| Ninguna. | 
+
+|excepciones| |
+|---|---|
+|1| Ninguna.|
 
