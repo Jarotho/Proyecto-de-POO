@@ -1,1 +1,1 @@
-![clases](https://user-images.githubusercontent.com/89890819/136896820-fd6b7c96-72af-4ddd-981d-25a7784da734.jpg)
+![clasess2](https://user-images.githubusercontent.com/90080810/137048771-ba9c5c66-ac64-481a-b41e-84cf6d976a7b.png)
