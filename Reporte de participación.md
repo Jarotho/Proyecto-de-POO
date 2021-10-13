@@ -1,6 +1,6 @@
 | Integrantes | Horas trabajadas | 
 | :-------------: | :-------------: |
-| Daniel Moreno   |   |  
+| Daniel Moreno   |  10 |  
 | Jacob Uc    |   |  
 | Wilbert Manzur   |   | 
 | Jaroth Moo  |   | 
