@@ -2,5 +2,5 @@
 | :-------------: | :-------------: |
 | Daniel Moreno   |  10 |  
 | Jacob Uc    |   |  
-| Wilbert Manzur   |   | 
-| Jaroth Moo  |   | 
+| Wilbert Manzur   | 8  | 
+| Jaroth Moo  |  9 | 
