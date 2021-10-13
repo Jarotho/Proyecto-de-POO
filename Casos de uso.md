@@ -112,7 +112,6 @@ __Secuencia principal__
 |6| La base de datos registra que el usuario desbloqueó un nuevo personaje.  |
 |7| El usuario visualiza su nuevo personaje en el álbum |
 |8| El usuario regresa al menú principal y abandona la aplicación. |
-
 |Postcondición| La base de datos registra que el usuario desbloqueó un nuevo personaje. | 
 
 |excepciones| |
@@ -137,7 +136,6 @@ __Secuencia principal__
 |2| Selecciona la opción “Ranking”. |
 |3| El sistema muestra en pantalla la lista de los jugadores con más experiencia acumulada. |
 |4| El usuario regresa hacia el menú principal y abandona la aplicación. |
-
 |Postcondición| Ninguna. | 
 
 |excepciones| |
