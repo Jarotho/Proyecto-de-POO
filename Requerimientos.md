@@ -42,7 +42,7 @@
 |Descripción| El usuario podrá acceder a una pestaña la cual le permitirá observar su ranking con respecto a otros usuarios del programa mediante la experiencia obtenida. |
 |Comentarios| El usuario puede subir de ranking únicamente por medio de la experiencia obtenida |  
 
-##No funcionales
+## No funcionales
 
 |RNF001| Interfaz gráfica de usuario |
 |---|---|
