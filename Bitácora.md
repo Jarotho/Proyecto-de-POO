@@ -80,5 +80,25 @@ Se establecen roles para la elaboración del proyecto.
 Se cambió el concepto de experiencia y sus usos por “estrellas”.  
 Se acordó que en la sección de “flashcards” muestre las preguntas respondidas correctamente por personaje; esta funcionalidad estará contenida en la sección “álbum”.  
 Se optó por hacer que se le asignará una foto de perfil al usuario que no se podrá cambiar.  
+
+# Reunión 5 (20/10/2021)
+## Asistentes:
+_Wilberth Manzur_  
+
+_Jaroth Moo_  
+
+_Daniel Moreno_  
+
+_Jacob Uc_    
+
+## Estados de los avances:  
+
+El equipo realizó cambios al diagrama de clases, por otro lado se decidió las clases que merecen tener, se hablaron los avances individules de investigación.
+## Acuerdos  
+Se decidió que el juego sea el  mediador entre usuario y otras clases como cuestionario, album y personaje
+
+La unica clase que contará con un CRUD será el usuario y los personajes serán estáticos 
  
+El tipo de base de datos que se utilizará es relacional
+
  
