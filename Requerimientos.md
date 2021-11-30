@@ -41,7 +41,7 @@
 
 |RNF001| Interfaz gráfica de usuario |
 |---|---|
-|Descripción| La interfaz gráfica es intuitiva para cualquier tipo de usuario (nuevo o ya registrado), por lo que resulta fácil su navegación. Además, es estética y llamativa al usuario. |
+|Descripción| La interfaz gráfica es intuitiva para cualquier tipo de usuario (nuevo o ya registrado), por lo que resulta fácil su navegación.|
 |Comentarios| No se requiere de experiencia previa con el sistema, por lo que un usuario nuevo debería navegar con facilidad en el sistema. |  
 
 |RNF002| Tiempo de respuesta|
