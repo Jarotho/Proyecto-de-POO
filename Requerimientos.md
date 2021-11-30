@@ -9,7 +9,7 @@
 
 |RF002|Personaje|
 |---|---|
-|Descripción| El usuario podrá seleccionar un personaje, donde podrá obtener experiencia.  |
+|Descripción| El usuario podrá seleccionar un personaje, donde podrá responder un cuestionario que permita obtener experiencia.  |
 |Comentarios| La experiencia obtenida se dará de acuerdo a cuántas preguntas se conteste correctamente. |  
 
 |RF003| Preguntas |
