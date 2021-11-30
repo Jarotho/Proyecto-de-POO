@@ -27,12 +27,12 @@
 |Descripción| El programa contendrá un apartado donde el usuario puede observar los personajes desbloqueados junto con las imágenes recibidas con determinada puntuación, en este apartado el usuario puede seleccionar de los personajes desbloqueados y el programa mostrará información de ese personaje y dará la opción de revisar unas flashcards |
 |Comentarios| El álbum puede recibir más actualizaciones para incluir más recompensas o retirar algunas |  
 
-|RF007| Experiencia |
+|RF006| Experiencia |
 |---|---|
 |Descripción| Las preguntas tendrán cierto número de puntuación la cual se acumulará como experiencia para la cuenta del usuario, esta permitirá entre otras cosas desbloquear imágenes exclusivas y se utilizará para los rankings |
 |Comentarios| La experiencia es una forma de ofrecer al usuario re jugabilidad ofreciendo recompensas y obtener un mayor ranking |  
 
-|RF008| Rankings |
+|RF007| Rankings |
 |---|---|
 |Descripción| El usuario podrá acceder a una pestaña la cual le permitirá observar su ranking con respecto a otros usuarios del programa mediante la experiencia obtenida. |
 |Comentarios| El usuario puede subir de ranking únicamente por medio de la experiencia obtenida |  
