@@ -9,8 +9,8 @@
 
 |RF002|Personaje|
 |---|---|
-|Descripción| El usuario podrá seleccionar un personaje, donde podrá elegir entre tres niveles de dificultad de preguntas, “fácil”, “medio” y “difícil”. Al completar los 3 niveles, el usuario podrá desbloquear el personaje en el álbum.  |
-|Comentarios| Las tres fases o niveles constarán de una serie de preguntas con distinta puntuación, sin embargo, es necesario completar una para seguir a la siguiente fase del personaje. |  
+|Descripción| El usuario podrá seleccionar un personaje, donde podrá obtener experiencia.  |
+|Comentarios| La experiencia obtenida se dará de acuerdo a cuántas preguntas se conteste correctamente. |  
 
 |RF003| Preguntas |
 |---|---|
