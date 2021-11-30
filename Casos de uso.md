@@ -30,11 +30,11 @@ __Secuencia principal__
 
 ***Caso de uso No.2***
 
-|Caso de uso| Escoger un personaje y su dificultad para jugar |
+|Caso de uso| Escoger un personaje para responder preguntas sobre dicho personaje |
 |---|---|
 |Actores| Usuario, base de datos, sistema |
 |Propósito| Hacer que el usuario inicie una sesión de juego. |
-|Resumen| El usuario ingresa a la aplicación, escoge un personaje, selecciona una dificultad disponible y responde la ronda de preguntas. |
+|Resumen| El usuario ingresa a la aplicación, escoge un personaje y responde la ronda de preguntas. |
 |Precondición| El usuario debe tener una cuenta creada. |
 
 __Secuencia principal__
@@ -46,58 +46,28 @@ __Secuencia principal__
 |3| El usuario selecciona la opción “jugar”. |
 |4| El sistema muestra todos los personajes. |
 |5| El usuario escoge un personaje. |
-|6| El usuario escoge el nivel de dificultad “fácil” del personaje seleccionado e inicia el cuestionario. |
+|6| El usuario comienza a responder el cuestionario. |
 |7| El usuario concluye la ronda de preguntas. |
 |8| El sistema le muestra en pantalla su experiencia generada con base en las preguntas respondidas correctamente. |
-|9| El sistema le muestra en pantalla al usuario que obtuvo una estrella. |
-|10| El usuario regresa a la sección de personajes. |
-|11| El usuario elige volver al menú|
-|12| El usuario sale de la aplicación. |
-|Postcondición| La experiencia obtenida de las preguntas y las estrellas se guardarán en la base de datos para poder desbloquear más personajes. | 
+|9| El usuario regresa a la sección de personajes. |
+|10| El usuario elige volver al menú|
+|11| El usuario sale de la aplicación. |
+|Postcondición| La experiencia obtenida de las preguntas se guardarán en la base de datos para poder desbloquear personajes en el álbum. | 
 
 |excepciones| |
 |---|---|
-|1|El usuario escoge un personaje con una dificultad aún no desbloqueada. Podrá desbloquearla únicamente si cuenta con las suficientes estrellas requeridas por el nivel.  |
-|2| En caso de que el usuario no responda bien una pregunta, se le indicará que es incorrecta su opción seleccionada. |
-|3| El sistema le indica al usuario que no obtuvo la estrella, pues el usuario no respondió correctamente al menos, el 80% de las preguntas. |
-|4| En caso de que el usuario cierre la aplicación mientras está respondiendo el cuestionario, no se guardará su progreso, por lo que el usuario tendrá que iniciar desde cero el cuestionario cuando vuelva a iniciar el programa.  |
+|1| El sistema le indica al usuario que no obtuvo cierta cantidad de 'Experiencia' pues el usuario no respondió correctamente al menos, el 80% de las preguntas. |
+|2| En caso de que el usuario cierre la aplicación mientras está respondiendo el cuestionario, no se guardará su progreso, por lo que el usuario tendrá que iniciar desde cero el cuestionario cuando vuelva a iniciar el programa.  |
+
 
 
 ***Caso de uso No.3***
-
-|Caso de uso| Desbloquear un nuevo nivel de dificultad de personaje |
-|---|---|
-|Actores| Usuario, base de datos, sistema |
-|Propósito| Hacer que el usuario pueda desbloquear y jugar un nuevo nivel de dificultad de un personaje |
-|Resumen| Tras haber obtenido una estrella (completando el nivel “fácil” de algún personaje), el usuario puede desbloquear el nivel de dificultad “medio” de ese mismo personaje o algún otro personaje que ya haya completado el nivel “fácil”. |
-|Precondición| Haber contestado correctamente al menos el 80% de las preguntas de un personaje del nivel “fácil” y estar ejecutando el programa con su sesión iniciada.| 
-
-__Secuencia principal__
-
-|Pasos| Secuencia |
-|---|---|
-|1| El usuario ingresa al menú principal. |
-|2| El usuario selecciona la opción “jugar”. |
-|3| El usuario selecciona un personaje. |
-|4| El usuario selecciona la dificultad “medio”. |
-|5| El sistema desbloquea el nivel de dificultad seleccionado. |
-|6| El sistema inicia el cuestionario. |
-|7| El usuario responde las preguntas. |
-|8| El usuario termina la ronda de preguntas. |
-|9| El usuario regresa al menú principal y abandona la aplicación. |
-|Postcondición| Si responde correctamente bien el 80% de las preguntas, obtendrá las dos estrellas que se otorgan en el nivel de dificultad “medio”. | 
-
-|excepciones| |
-|---|---|
-|1| En caso de que el personaje no haya sido completado el nivel fácil, no se podrá desbloquear el nivel “medio”. |
-
-***Caso de uso No.4***
 
 |Caso de uso| Desbloquear un personaje en el álbum |
 |---|---|
 |Actores| Usuario, base de datos, sistema |
 |Propósito| Hacer que el usuario desbloquee un personaje del álbum. |
-|Resumen| El usuario al haber completado los 3 niveles de dificultad de un personaje puede desbloquearlo (la figura) desde el “álbum de personajes” e ir ampliando su colección.|
+|Resumen| El usuario al haber obtenido cierta cantidad de 'Experiencia' puede desbloquear a un personaje (la figura) desde el “álbum de personajes” e ir ampliando su colección.|
 |Precondición| Haber concluido los 3 niveles de dificultad de un personaje. | 
 
 __Secuencia principal__
@@ -119,7 +89,7 @@ __Secuencia principal__
 |1| El usuario intenta desbloquear en el album un personaje que aún no ha sido completado los 3 niveles de dificultad, por lo que el sistema rechazará esta petición.|
 
 
-***Caso de uso No.5***
+***Caso de uso No.4***
 
 |Caso de uso| Visualizar el ranking  |
 |---|---|
