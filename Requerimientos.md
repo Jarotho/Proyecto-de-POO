@@ -14,23 +14,18 @@
 
 |RF003| Preguntas |
 |---|---|
-|Descripción| El sistema contendrá para cada personaje una serie de preguntas las cuales el usuario deberá responder correctamente para acumular experiencia, y con ello, ir desbloqueando ese y nuevos personajes. Todas las preguntas serán de opción múltiple. Las respuestas correctas de los 3 distintos niveles de dificultad otorgarán distinta experiencia según el nivel de dificultad.  |
+|Descripción| El sistema contendrá para cada personaje una serie de preguntas las cuales el usuario deberá responder correctamente para acumular experiencia, y con ello, ir desbloqueando ese y nuevos personajes. Todas las preguntas serán de opción múltiple.|
 |Comentarios| Solamente existirán preguntas de opción múltiple. |  
 
 |RF004|Desbloquear personajes |
 |---|---|
-|Descripción| El usuario podrá desbloquear el personaje al responder cierto número de preguntas de manera correcta, el desbloquear un personaje y obtener cierta puntuación por medio de las preguntas podrá desbloquear imágenes en la sección de álbum junto con el personaje. |
+|Descripción| El usuario podrá desbloquear el personaje al responder cierto número de preguntas de manera correcta, el desbloquear un personaje y obtener cierta puntuación por medio de las preguntas podrá desbloquear imágenes en la sección de álbum junto con el personaje.|
 |Comentarios| Los personajes se podrán desbloquear uno por uno de forma lineal |  
 
 |RF005| Álbum de personajes |
 |---|---|
 |Descripción| El programa contendrá un apartado donde el usuario puede observar los personajes desbloqueados junto con las imágenes recibidas con determinada puntuación, en este apartado el usuario puede seleccionar de los personajes desbloqueados y el programa mostrará información de ese personaje y dará la opción de revisar unas flashcards |
 |Comentarios| El álbum puede recibir más actualizaciones para incluir más recompensas o retirar algunas |  
-
-|RF006| Progresión |
-|---|---|
-|Descripción| Al usuario al completar una fase del personaje obtendrá una estrella y cuando junte tres estrellas podrá desbloquear al siguiente personaje |
-|Comentarios| La única manera de avanzar desbloqueando los personajes son las estrellas |  
 
 |RF007| Experiencia |
 |---|---|
