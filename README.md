@@ -1,5 +1,5 @@
 # Proyecto de Poo
-Repositorio donde añadiremos los cambios a nuestro proyecto para la materia "Programación orientada a Objetos"
+Repositorio donde mostraremos los avances de nuestro proyecto para la materia "Programación orientada a Objetos"
 
 # Miembros del equipo:
   - Wilbert Manzur
