@@ -9,12 +9,15 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
 
 /**
  *
@@ -50,8 +53,13 @@ public class MenuBarController implements Initializable {
     }
 
     @FXML
-    private void Ranking(MouseEvent event) {
-        loadPage("Ranking");
+    private void Ranking(MouseEvent event) throws IOException{
+        //loadPage("Ranking");
+        /*Parent rankingParent=FXMLLoader.load(getClass().getResource("RankingUI.fxml"));
+        Scene rankingScene=new Scene(rankingParent);
+        Stage window=(Stage)((Node)event.getSource()).getScene().getWindow();
+        window.setScene(rankingScene);
+        window.show();*/
     }
     
     private void loadPage(String page){

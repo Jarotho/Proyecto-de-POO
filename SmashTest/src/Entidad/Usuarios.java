@@ -83,8 +83,8 @@ public class Usuarios implements Serializable {
         this.contrasenaUsuario = contrasenaUsuario;
     }
 
-    public String getExperienciaUsuario() {
-        return experienciaUsuario;
+    public Integer getExperienciaUsuario() {
+        return Integer.parseInt(experienciaUsuario);
     }
 
     public void setExperienciaUsuario(String experienciaUsuario) {

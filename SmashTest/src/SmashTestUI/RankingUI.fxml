@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="360.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SmashTestUI.RankingUIController">
+   <children>
+      <BorderPane layoutX="-2.0" layoutY="-1.0" prefHeight="360.0" prefWidth="640.0">
+         <center>
+            <TableView fx:id="tableView" prefHeight="226.0" prefWidth="410.0" style="-fx-background-color: #F3E06A;" BorderPane.alignment="CENTER">
+              <columns>
+                <TableColumn fx:id="col_usuario" editable="false" minWidth="0.0" prefWidth="171.20001828670502" sortType="DESCENDING" sortable="false" style="-fx-background-color: #DCF987;" text="Usuario" />
+                  <TableColumn fx:id="col_exp" editable="false" prefWidth="185.60001220703123" sortType="DESCENDING" style="-fx-background-color: #87F9B7;" text="Exp" />
+              </columns>
+            </TableView>
+         </center>
+         <left>
+            <ImageView fitHeight="335.0" fitWidth="282.0" pickOnBounds="true" preserveRatio="true" smooth="false" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@../Imagenes/Ranking2.jpg" />
+               </image></ImageView>
+         </left>
+         <bottom>
+            <HBox prefHeight="26.0" prefWidth="640.0" BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane prefHeight="26.0" prefWidth="640.0">
+                     <children>
+                        <Button layoutX="282.0" mnemonicParsing="false" onAction="#actualizarTabla" prefHeight="26.0" prefWidth="358.0" text="Actualizar" />
+                        <Button layoutX="96.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="117.0" text="Regresar al menú" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>
