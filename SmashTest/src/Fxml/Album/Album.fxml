@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="258.0" prefWidth="421.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="menu.AlbumController">
+  <content>
+    <AnchorPane fx:id="sp" minHeight="0.0" minWidth="0.0" prefHeight="265.0" prefWidth="388.0">
+         <children>
+            <ImageView fitHeight="267.0" fitWidth="475.0" layoutX="-2.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../SmashFondo.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#MarioAlbum" prefHeight="55.0" prefWidth="57.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="87.0" fitWidth="141.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../LogoMario.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="197.0" layoutY="14.0" mnemonicParsing="false" onAction="#DKAlbum" onContextMenuRequested="#DKAlbum" prefHeight="100.0" prefWidth="118.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="77.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../DKLogo.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="17.0" layoutY="137.0" mnemonicParsing="false" onAction="#KirbyAlbum" onMouseClicked="#KirbyAlbum" prefHeight="93.0" prefWidth="123.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="45.0" fitWidth="88.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Kirby.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="189.0" layoutY="137.0" mnemonicParsing="false" onAction="#MetroidAlbum" onMouseClicked="#MetroidAlbum" prefHeight="100.0" prefWidth="105.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="80.0" fitWidth="118.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../SamusLogo.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Text fill="WHITE" layoutX="198.0" layoutY="235.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="Metroid saga" textAlignment="CENTER" wrappingWidth="116.462890625">
+               <font>
+                  <Font name="Wingdings" size="16.0" />
+               </font>
+               <effect>
+                  <Glow level="0.64" />
+               </effect>
+            </Text>
+            <Text fill="#fcfcfc" layoutX="34.0" layoutY="117.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="Mario saga" textAlignment="CENTER" wrappingWidth="92.462890625">
+               <font>
+                  <Font name="Wingdings" size="16.0" />
+               </font>
+               <effect>
+                  <Glow level="0.64" />
+               </effect>
+            </Text>
+            <Text fill="WHITE" layoutX="34.0" layoutY="235.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="Kirby saga" textAlignment="CENTER" wrappingWidth="88.462890625">
+               <font>
+                  <Font name="Wingdings" size="17.0" />
+               </font>
+               <effect>
+                  <Glow level="0.64" />
+               </effect>
+            </Text>
+            <Text fill="WHITE" layoutX="209.0" layoutY="117.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="Donkey Kong saga" textAlignment="CENTER" wrappingWidth="93.462890625">
+               <font>
+                  <Font name="Wingdings" size="14.0" />
+               </font>
+               <effect>
+                  <Glow level="0.64" />
+               </effect>
+            </Text>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>

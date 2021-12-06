@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="MarioDatosPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="389.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Fxml.DatosCuriosos.MarioDatosController">
+   <children>
+      <ImageView fitHeight="418.0" fitWidth="699.0" layoutX="-99.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../4MarioDatosFondo.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fff9b1" height="206.0" layoutX="433.0" layoutY="174.0" stroke="BLACK" strokeType="INSIDE" width="159.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffc9c9" height="133.0" layoutX="198.0" layoutY="175.0" stroke="BLACK" strokeType="INSIDE" width="224.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f6e3ff" height="216.0" layoutX="31.0" layoutY="169.0" stroke="BLACK" strokeType="INSIDE" width="159.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d7ffd6" height="112.0" layoutX="300.0" layoutY="53.0" stroke="BLACK" strokeType="INSIDE" width="273.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e1ebf5" height="109.0" layoutX="14.0" layoutY="53.0" stroke="BLACK" strokeType="INSIDE" width="267.0" />
+      <Text fill="WHITE" layoutX="268.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mario">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="23.0" />
+         </font>
+      </Text>
+      <Button layoutX="205.0" layoutY="333.0" mnemonicParsing="false" onAction="#BackToWiki" text="Volver al personaje" />
+      <ImageView fitHeight="62.0" fitWidth="50.0" layoutX="31.0" layoutY="3.0">
+         <image>
+            <Image url="@../../MarioMexicano_adobespark.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="22.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Originalmente, Mario iba a ser calvo. Esto se puede ver en mercancía y algunos artes del primer Donkey Kong. Debido a su éxito entre el público, el diseño del personaje fue cambiado a lo que tenemos actualmente." textAlignment="CENTER" wrappingWidth="255.59765625" />
+      <Text layoutX="310.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mario no iba a salir en Super Mario Bros. Cuando el juego estaba en sus etapas finales de desarrollo, Nintendo seguía teniendo como protagonista del juego a un cuadro blanco. Debido al éxito de Mario Bros., se decidió que el plomero debía ser el personaje principal." textAlignment="CENTER" wrappingWidth="246.9296875" />
+      <Text layoutX="45.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Super Mario Bros. cupo en un cartucho de 256-kilobits. Esta cantidad de memoria se traduce en unos 32 kilobytes, por lo que para almacenar una pequeña imagen JPEG de la actualidad, se requerirían tres de los famosas cassettes de NES." textAlignment="CENTER" wrappingWidth="131.08935546875" />
+      <Text layoutX="207.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Super Mario Bros. 2 y Super Mario Bros 3. jamás ocurrieron. La historia de la segunda entrega de la serie que se conoció como Super Mario USA, se trata de un sueño, mientras que el tercero, es una obra de teatro." textAlignment="CENTER" wrappingWidth="206.59765625" />
+      <Text layoutX="450.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mario le debe mucho a Jackie Chan. Nintendo se encargó de hacer el port de Kung-Fu al NES, en donde aprendieron varias técnicas de scrolling que después se implementaron en lo que fue Super Mario Bros." textAlignment="CENTER" wrappingWidth="125.08935546875" />
+      <ImageView fitHeight="74.0" fitWidth="63.0" layoutX="536.0" layoutY="4.0">
+         <image>
+            <Image url="@../../MarioFuego.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="85.0" fitWidth="95.0" layoutX="331.0" layoutY="291.0">
+         <image>
+            <Image url="@../../MarioDatos.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
