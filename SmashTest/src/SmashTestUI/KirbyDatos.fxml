@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="KirbyDatosPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="389.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SmashTestUI.KirbyDatosController">
+   <children>
+      <ImageView fitHeight="418.0" fitWidth="699.0" layoutX="-99.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagenes/3KirbyDatosFondo.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fff9b1" height="206.0" layoutX="423.0" layoutY="175.0" stroke="BLACK" strokeType="INSIDE" width="170.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffc9c9" height="123.0" layoutX="188.0" layoutY="176.0" stroke="BLACK" strokeType="INSIDE" width="224.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f6e3ff" height="206.0" layoutX="12.0" layoutY="177.0" stroke="BLACK" strokeType="INSIDE" width="170.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d7ffd6" height="112.0" layoutX="287.0" layoutY="53.0" stroke="BLACK" strokeType="INSIDE" width="293.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e1ebf5" height="109.0" layoutX="14.0" layoutY="53.0" stroke="BLACK" strokeType="INSIDE" width="267.0" />
+      <Text layoutX="280.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kirby">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="23.0" />
+         </font>
+      </Text>
+      <Button layoutX="192.0" layoutY="324.0" mnemonicParsing="false" onAction="#BackToWiki" text="Volver al personaje" />
+      <Text layoutX="22.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="El primer videojuego de Kirby se lanzó para Game Boy y no para una consola de sobremesa. Fue Kirby's Dream Land y creó esa habilidad que tanto caracteriza al personaje de aspirar enemigos y arrojarlos con forma de estrella." textAlignment="CENTER" wrappingWidth="255.59765625" />
+      <Text layoutX="295.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="La desarrolladora responsable de la creación de Kirby es Hal Laboratory, estudio también conocido por ser responsable de la saga Smash Bros. De su creación se encargó el diseñador Masahiro Sakurai cuando tenía 19 años y su producción contó con la colaboración de Satoru Iwata" textAlignment="CENTER" wrappingWidth="280.0" />
+      <Text layoutX="18.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="En el proceso de diseño de Kirby, Sakurai estaba convencido de que el personaje debía ser de color rosa, pero Shigeru Miyamoto lo veía mejor con tonalidades amarillas. El &quot;enfrentamiento&quot; entre los dos diseñadores se saldó con la victoria del primero, por lo que terminamos recibiendo esta bolita rosada." textAlignment="CENTER" wrappingWidth="159.0" />
+      <Text layoutX="196.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="En estos 25 años, Nintendo ha comercializado más de 25 juegos protagonizados por el personaje para prácticamente todas sus plataformas, y el próximo año tendremos una nueva entrega de esta querida bola rosa" textAlignment="CENTER" wrappingWidth="206.59765625" />
+      <Text layoutX="432.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="El personaje de Nintendo se ha dejado caer por varios títulos de la compañía. A todos nos suena luchar con él en la saga Smash Bros, pero menos conocidas son sus apariciones en Yoshi's Island y The Legend of Zelda: Link's Awakening, donde podemos ver un enemigo que se parece demasiado a Kirby." textAlignment="CENTER" wrappingWidth="151.08935546875" />
+      <ImageView fitHeight="57.0" fitWidth="66.0" layoutX="517.0" layoutY="14.0">
+         <image>
+            <Image url="@../Imagenes/KirbySentao.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="88.0" fitWidth="80.0" layoutX="320.0" layoutY="288.0">
+         <image>
+            <Image url="@../Imagenes/KirbyLentes.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="57.0" fitWidth="66.0" layoutX="22.0" layoutY="9.0">
+         <image>
+            <Image url="@../Imagenes/KirbyDatos.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

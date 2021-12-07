@@ -20,7 +20,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
-//import javafx.stage.StageStyle;
+import javafx.stage.StageStyle;
 
 /**
  * FXML Controller class
@@ -41,15 +41,10 @@ public class FXMLLoginController implements Initializable {
     
     @FXML
     void cambiarStage(ActionEvent event) throws IOException{
-        /*Parent rankingParent=FXMLLoader.load(getClass().getResource("RankingUI.fxml"));
+        Parent rankingParent=FXMLLoader.load(getClass().getResource("MenuBar.fxml"));
         Scene rankingScene=new Scene(rankingParent);
         Stage window=(Stage)((Node)event.getSource()).getScene().getWindow();
         window.setScene(rankingScene);
-        window.show();*/
-        Parent menuParent=FXMLLoader.load(getClass().getResource("MenuUI.fxml"));
-        Scene menuScene=new Scene(menuParent);
-        Stage window=(Stage)((Node)event.getSource()).getScene().getWindow();
-        window.setScene(menuScene);
         window.show();
     }
 
