@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="360.0" prefWidth="640.0" style="-fx-background-color: A61D00;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SmashTestUI.FXMLLoginController">
+   <children>
+      <AnchorPane layoutX="331.0" layoutY="27.0" opacity="0.9" prefHeight="306.0" prefWidth="279.0" style="-fx-background-color: #D8F184;">
+         <children>
+            <TextField fx:id="txtUser" alignment="CENTER" layoutX="16.0" layoutY="97.0" prefHeight="26.0" prefWidth="246.0" promptText="Usuario" style="-fx-background-color: #A11C0A;" />
+            <PasswordField fx:id="txtPassword" alignment="CENTER" layoutX="16.0" layoutY="153.0" prefHeight="26.0" prefWidth="246.0" promptText="Contraseña" style="-fx-background-color: #A11C0A;" />
+            <Button layoutX="163.0" layoutY="253.0" mnemonicParsing="false" onAction="#cambiarStage" prefHeight="26.0" prefWidth="106.0" style="-fx-background-color: #A11C0A;" text="Ingresar" textFill="#efeeee" />
+            <Label layoutX="113.0" layoutY="28.0" text="Inicio">
+               <font>
+                  <Font name="Book Antiqua" size="21.0" />
+               </font>
+            </Label>
+            <Button fx:id="BtnRegistro" layoutX="23.0" layoutY="254.0" mnemonicParsing="false" onAction="#addUser" prefHeight="26.0" prefWidth="129.0" style="-fx-background-color: #A11C0A;" text="Registro" textFill="#f7f7f7" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="21.0" layoutY="14.0" text="SmashTest" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="37.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="343.0" fitWidth="307.0" layoutX="14.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagenes/smashlogo.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

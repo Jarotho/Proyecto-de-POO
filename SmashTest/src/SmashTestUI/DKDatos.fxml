@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="DKDatosPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="389.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SmashTestUI.DKDatosController">
+   <children>
+      <ImageView fitHeight="418.0" fitWidth="699.0" layoutX="-99.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagenes/2DKDatosFondo.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fff9b1" height="206.0" layoutX="423.0" layoutY="175.0" stroke="BLACK" strokeType="INSIDE" width="159.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffc9c9" height="133.0" layoutX="188.0" layoutY="176.0" stroke="BLACK" strokeType="INSIDE" width="224.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f6e3ff" height="206.0" layoutX="23.0" layoutY="177.0" stroke="BLACK" strokeType="INSIDE" width="159.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d7ffd6" height="112.0" layoutX="300.0" layoutY="53.0" stroke="BLACK" strokeType="INSIDE" width="273.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e1ebf5" height="109.0" layoutX="14.0" layoutY="53.0" stroke="#a47b7b" strokeType="INSIDE" width="267.0" />
+      <Text fill="WHITE" layoutX="230.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Donkey Kong">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="23.0" />
+         </font>
+      </Text>
+      <Button layoutX="205.0" layoutY="333.0" mnemonicParsing="false" onAction="#BackToWiki" text="Volver al personaje" />
+      <Text layoutX="22.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="El creador de Donkey Kong fue el gran Shigeru Miyamoto, quien tuvo la complicada misión de dar vida a un videojuego basándose en la serie Popeye, el marino, cuyos derechos no fueron concedidos a Nintendo." textAlignment="CENTER" wrappingWidth="255.59765625" />
+      <Text layoutX="322.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="En la primera entrega de Donkey Kong, lanzada el 9 de julio de 1981, el protagonista era un personaje de nombre Jumpman. Su popularidad fue tal, que pronto este Jumpman se convirtió en un célebre fontanero italiano… Sí, hablamos de Mario Bros" textAlignment="CENTER" wrappingWidth="246.9296875" />
+      <Text layoutX="33.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Aunque el gorila vio opacada su popularidad por algunos años con la llegada de Mario Bros, en 1994 volvió a las andadas con la presentación de un juego en solitario para Game Boy. A partir de ese momento sería recordado por su atuendo: una corbata roja con sus iniciales." textAlignment="CENTER" wrappingWidth="139.08935546875" />
+      <Text layoutX="196.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Por aquellos años, el personaje iniciaría una de sus etapas más célebres y recordadas por los gamers, gracias a la aparición del título Donkey Kong Country, el cual volvió a convertir al gorila en una estrella de los videojuegos." textAlignment="CENTER" wrappingWidth="206.59765625" />
+      <Text layoutX="433.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" A la fecha, Donkey Kong ha aparecido en infinidad de títulos y sagas de Nintendo, como Smash Bros, Donkey Konga y, por supuesto, Mario Kart, donde lo hemos visto repartiendo bananas a diestra y siniestra para evitar que sus contrincantes avancen en la carrera." textAlignment="CENTER" wrappingWidth="139.08935546875" />
+      <ImageView fitHeight="80.0" fitWidth="97.0" layoutX="503.0" layoutY="6.0">
+         <image>
+            <Image url="@../Imagenes/DKDatos.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="109.0" layoutX="326.0" layoutY="309.0">
+         <image>
+            <Image url="@../Imagenes/DatosDK.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="58.0" layoutX="23.0" layoutY="13.0">
+         <image>
+            <Image url="@../Imagenes/OKDK.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
