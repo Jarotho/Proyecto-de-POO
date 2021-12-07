@@ -4,10 +4,12 @@
  */
 package SmashTestUI;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.layout.AnchorPane;
 
@@ -30,19 +32,30 @@ public class JugarController implements Initializable {
     }    
 
     @FXML
-    private void CuestionarioMario(ActionEvent event) {
+    private void CuestionarioMario(ActionEvent event) throws IOException {
+        AnchorPane pane = FXMLLoader.load(getClass().getResource("CuestionarioMario.fxml"));
+    JugarPane.getChildren().setAll(pane);
     }
 
     @FXML
-    private void CuestionarioKirby(ActionEvent event) {
+    private void CuestionarioKirby(ActionEvent event) throws IOException {
+        AnchorPane pane = FXMLLoader.load(getClass().getResource("CuestionarioKirby.fxml"));
+    JugarPane.getChildren().setAll(pane);
+        
     }
 
     @FXML
-    private void CuestionarioSamus(ActionEvent event) {
+    private void CuestionarioSamus(ActionEvent event) throws IOException {
+        AnchorPane pane = FXMLLoader.load(getClass().getResource("CuestionarioSamus.fxml"));
+    JugarPane.getChildren().setAll(pane);
+        
     }
 
     @FXML
-    private void CuestionarioDK(ActionEvent event) {
+    private void CuestionarioDK(ActionEvent event) throws IOException {
+        AnchorPane pane = FXMLLoader.load(getClass().getResource("CuestionarioDK.fxml"));
+    JugarPane.getChildren().setAll(pane);
+    
     }
     
 }

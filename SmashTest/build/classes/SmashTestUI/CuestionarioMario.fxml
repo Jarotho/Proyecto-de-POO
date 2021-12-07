@@ -1,15 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane id="AnchorPane" fx:id="Cuestionario3Pane" prefHeight="336.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SmashTestUI.CuestionarioMarioController">
    <children>
-      <ImageView fitHeight="190.0" fitWidth="250.0" layoutX="218.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="440.0" fitWidth="600.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: 0.5;">
          <image>
-            <Image url="@../Imagenes/1MarioWiki.png" />
+            <Image url="@../Imágenes/1CuestionarioFondo.jpg" />
          </image>
       </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e9ff6d" height="108.0" layoutX="196.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="192.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff8cb1" height="108.0" layoutX="415.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="169.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c689dd" height="108.0" layoutX="9.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="154.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eb5858" height="95.0" layoutX="415.0" layoutY="155.0" stroke="BLACK" strokeType="INSIDE" width="169.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#93c7f8" height="108.0" layoutX="9.0" layoutY="159.0" stroke="BLACK" strokeType="INSIDE" width="154.0" />
+      <Button layoutX="191.0" layoutY="301.0" mnemonicParsing="false" onAction="#BackToQuestionaire" prefHeight="17.0" prefWidth="217.0" text="Volver a la selección de personajes" />
+      <RadioButton layoutX="18.0" layoutY="77.0" mnemonicParsing="false" onAction="#CorrectaP1" text="Shigeru Miyamoto" />
+      <RadioButton layoutX="18.0" layoutY="94.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="123.0" text="Yoshihiro Togashi" />
+      <RadioButton layoutX="18.0" layoutY="111.0" mnemonicParsing="false" text="Daisuke Endo" />
+      <Text layoutX="18.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-background-: black;" text="Creador de Mario" wrappingWidth="135.13671875" />
+      <Text layoutX="14.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Juego que en realidad no ocurrió" wrappingWidth="169.0" />
+      <Text layoutX="206.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Artista de artes marciales que ayudó al desarrollo del juego" wrappingWidth="179.173828125" />
+      <Text layoutX="415.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Peso en Kb del primer cartucho de Super Mario Bros" wrappingWidth="169.0" />
+      <Text layoutX="423.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Aspecto original de Mario según Donkey Kong y su arte" wrappingWidth="169.0" />
+      <RadioButton layoutX="209.0" layoutY="85.0" mnemonicParsing="false" text="Jackie Chan" />
+      <RadioButton layoutX="209.0" layoutY="102.0" mnemonicParsing="false" text="Bruce Lee" />
+      <RadioButton layoutX="209.0" layoutY="119.0" mnemonicParsing="false" text="Chuck Norris" />
+      <RadioButton layoutX="425.0" layoutY="85.0" mnemonicParsing="false" text="256" />
+      <RadioButton layoutX="425.0" layoutY="102.0" mnemonicParsing="false" text="128" />
+      <RadioButton layoutX="425.0" layoutY="119.0" mnemonicParsing="false" text="64" />
+      <RadioButton layoutX="425.0" layoutY="192.0" mnemonicParsing="false" text="Calvo" />
+      <RadioButton layoutX="425.0" layoutY="209.0" mnemonicParsing="false" text="Barbudo" />
+      <RadioButton layoutX="425.0" layoutY="225.0" mnemonicParsing="false" text="Alto" />
+      <Text layoutX="245.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Instrucciones">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3b250d" height="64.0" layoutX="211.0" layoutY="226.0" stroke="BLACK" strokeType="INSIDE" width="169.0" />
+      <Text fill="WHITE" layoutX="222.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Da click a la respuesta que consideres correcta, solo a esa respuesta" wrappingWidth="154.4296875" />
+      <Button layoutX="431.0" layoutY="268.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="119.0" text="Enviar respuestas" />
+      <RadioButton layoutX="18.0" layoutY="192.0" mnemonicParsing="false" text="Super Mario Bros 1" />
+      <RadioButton layoutX="18.0" layoutY="212.0" mnemonicParsing="false" text="Super Mario Odyssey" />
+      <RadioButton layoutX="18.0" layoutY="234.0" mnemonicParsing="false" text="Super Mario Bros 2" />
    </children>
 </AnchorPane>

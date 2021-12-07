@@ -1,15 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane id="AnchorPane" fx:id="Cuestionario4Pane" prefHeight="336.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SmashTestUI.CuestionarioSamusController">
    <children>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="440.0" fitWidth="600.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: 0.5;">
          <image>
-            <Image url="@../Imagenes/2SamusWiki.png" />
+            <Image url="@../Imágenes/1CuestionarioFondo.jpg" />
          </image>
       </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e9ff6d" height="108.0" layoutX="196.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="192.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff8cb1" height="108.0" layoutX="415.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="169.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c689dd" height="120.0" layoutX="9.0" layoutY="28.0" stroke="BLACK" strokeType="INSIDE" width="179.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eb5858" height="95.0" layoutX="415.0" layoutY="155.0" stroke="BLACK" strokeType="INSIDE" width="146.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#93c7f8" height="108.0" layoutX="9.0" layoutY="159.0" stroke="BLACK" strokeType="INSIDE" width="192.0" />
+      <Button layoutX="191.0" layoutY="301.0" mnemonicParsing="false" onAction="#BackToQuestionaire" prefHeight="17.0" prefWidth="217.0" text="Volver a la selección de personajes" />
+      <RadioButton layoutX="18.0" layoutY="77.0" mnemonicParsing="false" onAction="#CorrectaP1" text="Shigeru Miyamoto" />
+      <RadioButton layoutX="18.0" layoutY="94.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="109.0" text="Satoru Iwata" />
+      <RadioButton layoutX="18.0" layoutY="111.0" mnemonicParsing="false" text="Hirohiko Araki" />
+      <Text layoutX="9.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-background-: black;" text="Desarrollador famoso que participó por primera vez en Metroid Prime" wrappingWidth="179.0" />
+      <Text layoutX="19.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Función que era imposible de hacer en Metroid con una gameboy" wrappingWidth="192.0" />
+      <Text layoutX="206.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Segundo personaje femenino jugable" wrappingWidth="179.173828125" />
+      <Text layoutX="415.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Primer item que los jugadores obtienen generalmente" wrappingWidth="169.0" />
+      <Text layoutX="423.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Juego exclusico de Metroid para la famicom" wrappingWidth="135.13671875" />
+      <RadioButton layoutX="209.0" layoutY="85.0" mnemonicParsing="false" text="Samus Aran" />
+      <RadioButton layoutX="209.0" layoutY="102.0" mnemonicParsing="false" text="Kissy" />
+      <RadioButton layoutX="209.0" layoutY="119.0" mnemonicParsing="false" text="Jolyne Cujoh" />
+      <RadioButton layoutX="425.0" layoutY="85.0" mnemonicParsing="false" text="Energy tank" />
+      <RadioButton layoutX="425.0" layoutY="102.0" mnemonicParsing="false" text="Morphball" />
+      <RadioButton layoutX="425.0" layoutY="119.0" mnemonicParsing="false" text="Rail Gun" />
+      <RadioButton layoutX="425.0" layoutY="192.0" mnemonicParsing="false" text="Metroid I" />
+      <RadioButton layoutX="425.0" layoutY="209.0" mnemonicParsing="false" text="Metroid Prime" />
+      <RadioButton layoutX="425.0" layoutY="225.0" mnemonicParsing="false" text="Metroid Dread" />
+      <Text layoutX="245.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Instrucciones">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3b250d" height="64.0" layoutX="211.0" layoutY="226.0" stroke="BLACK" strokeType="INSIDE" width="169.0" />
+      <Text fill="WHITE" layoutX="222.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Da click a la respuesta que consideres correcta, solo a esa respuesta" wrappingWidth="154.4296875" />
+      <Button layoutX="431.0" layoutY="268.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="119.0" text="Enviar respuestas" />
+      <RadioButton layoutX="18.0" layoutY="192.0" mnemonicParsing="false" text="Saltar" />
+      <RadioButton layoutX="18.0" layoutY="212.0" mnemonicParsing="false" text="Ver el menú" />
+      <RadioButton layoutX="18.0" layoutY="234.0" mnemonicParsing="false" text="Distinción de clolores" />
    </children>
 </AnchorPane>
