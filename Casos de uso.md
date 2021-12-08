@@ -61,12 +61,12 @@ __Secuencia principal__
 
 ***Caso de uso No.3***
 
-|Caso de uso| Visualizar el álbum |
+|Caso de uso| Visualizar el Álbum |
 |---|---|
 |Actores| Usuario, base de datos, sistema |
 |Propósito| Hacer que el usuario observe información y datos curiosos del personaje, al igual que sus trofeos |
 |Resumen| El usuario al haber obtenido cierta cantidad de 'Experiencia' puede desbloquear trofeos de un personaje (la figura) desde el “álbum de personajes” e ir ampliando su colección.
-|Precondición| El usuario debe tener una cuenta creada. | 
+|Precondición| Haber obtenido un mínimo de experiencia de un personaje. | 
 
 __Secuencia principal__
 
@@ -81,8 +81,8 @@ __Secuencia principal__
 
 |excepciones| |
 |---|---|
-|1| El usuario intenta desbloquear en el album un personaje que aún no ha sido completado los 3 niveles de dificultad, por lo que el sistema rechazará esta petición.|
-b
+|1| El usuario intenta ver en el album un trofeo de un personaje que aún no ha llegado a a la experiencia requerida, por lo que el sistema rechazará esta petición.|
+
 
 ***Caso de uso No.4***
 
