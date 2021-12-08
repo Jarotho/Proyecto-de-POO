@@ -6,7 +6,7 @@
 |---|---|
 |Actores| Usuario, base de datos, sistema |
 |Propósito| Registrar al usuario |
-|Resumen| El usuario entra por primera vez al juego, crea su cuenta y completa el tutorial. |
+|Resumen| El usuario entra por primera vez al juego, crea su cuenta. |
 
 __Secuencia principal__
 
@@ -22,10 +22,11 @@ __Secuencia principal__
 
 |Excepciones| |
 |---|---|
-|1|El usuario puede ingresar un ID que ya esté en uso, por lo que deberá ingresar uno que este desocupado o libre.  |
+|1|El usuario no puede ingresar un ID que ya esté en uso, por lo que deberá ingresar uno que no esté en la base de datos.  |
 |2| El usuario ingresa un ID que contiene caracteres como “@” o “#”. Este ID será invalido. |
-|3| El usuario cierra la aplicación sin finalizar el registro, por lo que tendrá que completarlo la próxima vez que ejecute la aplicación. |
-|4| El usuario cierra la aplicación sin finalizar el tutorial, por lo que tendrá que completarlo la próxima vez que inicie el juego con su cuenta. |
+|3| El usuario ingresa un ID que contiene caracteres como “@” o “#”. Este ID será invalido. |
+|4| El usuario cierra la aplicación sin finalizar el registro, por lo que tendrá que completarlo la próxima vez que ejecute la aplicación. |
+|5| El usuario cierra la aplicación sin finalizar el tutorial, por lo que tendrá que completarlo la próxima vez que inicie el juego con su cuenta. |
 
 
 ***Caso de uso No.2***
