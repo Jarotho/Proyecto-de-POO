@@ -20,9 +20,9 @@ __Secuencia principal__
 
 |Excepciones| |
 |---|---|
-|1|El usuario ingresa un ID que ya esté en uso. Este no se podrá, por lo que deberá ingresar uno que no esté en la base de datos.  |
+|1| El usuario ingresa un ID que ya está en uso. Este será denegado, por lo que deberá ingresar uno que no esté en la base de datos.  |
 |2| El usuario ingresa un ID que contiene caracteres como “@” o “#”. Este ID será invalido. |
-|3| El usuario ingresa un ID que contiene menos de tres caracteres. Este ID será invalido. |
+|3| El usuario ingresa un ID que contiene menos de tres caracteres. Este no será permitido|
 |4| El usuario cierra la aplicación sin finalizar el registro, por lo que tendrá que completarlo la próxima vez que ejecute la aplicación. |
 
 
@@ -32,7 +32,7 @@ __Secuencia principal__
 |---|---|
 |Actores| Usuario, base de datos, sistema |
 |Propósito| Hacer que el usuario inicie una sesión de juego. |
-|Resumen| El usuario ingresa a la aplicación, escoge un personaje y responde la ronda de preguntas. |
+|Resumen| El usuario ingresa a la aplicación, escoge un personaje y responde la ronda de preguntas relacionadas al seleccionado. |
 |Precondición| El usuario debe tener una cuenta creada. |
 
 __Secuencia principal__
@@ -50,23 +50,23 @@ __Secuencia principal__
 |9| El usuario regresa a la sección de personajes. |
 |10| El usuario elige volver al menú|
 |11| El usuario sale de la aplicación. |
-|Postcondición| La experiencia obtenida de las preguntas se guardarán en la base de datos para poder desbloquear personajes en el álbum. | 
+|Postcondición| La experiencia obtenida de las preguntas se guardarán en la base de datos para poder desbloquear trofeos. | 
 
 |excepciones| |
 |---|---|
 |1| El sistema le indica al usuario que no obtuvo cierta cantidad de 'Experiencia' pues el usuario no respondió correctamente al menos, el 80% de las preguntas. |
-|2| En caso de que el usuario cierre la aplicación mientras está respondiendo el cuestionario, no se guardará su progreso, por lo que el usuario tendrá que iniciar desde cero el cuestionario cuando vuelva a iniciar el programa.  |
+|2| En caso de que el usuario cierre la aplicación mientras está respondiendo el cuestionario, no se guardará su progreso, por lo que el usuario tendrá que iniciar desde cero el cuestionario cuando vuelva a jugar.  |
 
 
 
 ***Caso de uso No.3***
 
-|Caso de uso| Desbloquear un personaje en el álbum |
+|Caso de uso| Visualizar el álbum |
 |---|---|
 |Actores| Usuario, base de datos, sistema |
-|Propósito| Hacer que el usuario desbloquee un personaje del álbum. |
-|Resumen| El usuario al haber obtenido cierta cantidad de 'Experiencia' puede desbloquear a un personaje (la figura) desde el “álbum de personajes” e ir ampliando su colección.|
-|Precondición| Haber concluido los 3 niveles de dificultad de un personaje. | 
+|Propósito| Hacer que el usuario observe información y datos curiosos del personaje, al igual que sus trofeos |
+|Resumen| El usuario al haber obtenido cierta cantidad de 'Experiencia' puede desbloquear trofeos de un personaje (la figura) desde el “álbum de personajes” e ir ampliando su colección.
+|Precondición| El usuario debe tener una cuenta creada. | 
 
 __Secuencia principal__
 
@@ -75,17 +75,14 @@ __Secuencia principal__
 |1| El usuario ingresa al menú principal. |
 |2| Selecciona la opción “Álbum de personajes”. |
 |3| Selecciona un personaje. |
-|4| Selecciona la opción “Desbloquear personaje”. |
-|5| El sistema desbloquea el nuevo personaje. |
-|6| La base de datos registra que el usuario desbloqueó un nuevo personaje.  |
-|7| El usuario visualiza su nuevo personaje en el álbum |
-|8| El usuario regresa al menú principal y abandona la aplicación. |
-|Postcondición| La base de datos registra que el usuario desbloqueó un nuevo personaje. | 
+|4| El usuario visualiza sus habilidades y sus trofeos |
+|5| El usuario regresa al menú principal y abandona la aplicación. |
+|Postcondición| La base de datos registra que el usuario desbloqueó un trofeo. | 
 
 |excepciones| |
 |---|---|
 |1| El usuario intenta desbloquear en el album un personaje que aún no ha sido completado los 3 niveles de dificultad, por lo que el sistema rechazará esta petición.|
-
+b
 
 ***Caso de uso No.4***
 
