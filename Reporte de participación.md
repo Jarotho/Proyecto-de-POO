@@ -1,4 +1,4 @@
-# Segunda entrega
+# Entrega final
 | Integrantes |Aportes al proyecto | 
 | :-------------: | :-------------: |
 | Daniel Moreno   |  Creación de la interfaz y función del registro de usuario, navegacion menú-ranking y login-menú, creación del ranking y sus respectivas funciones |  
