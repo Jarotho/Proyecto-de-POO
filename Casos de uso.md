@@ -13,20 +13,17 @@ __Secuencia principal__
 |Pasos| Secuencia |
 |---|---|
 |1| El usuario ingresa por primera vez al sistema, este le muestra en pantalla los campos requeridos para crear una cuenta. |
-|2| El usuario ingresa un ID y una contraseña en los campos solicitados. |
-|3| El sistema ejecuta el tutorial para un nuevo usuario. |
-|4| El usuario completa el tutorial de inicio. |
-|5| El sistema muestra el menú principal donde el usuario puede seleccionar diversas acciones. |
-|6| El usuario sale de la aplicación. |
+|2| El usuario ingresa un ID y una contraseña con su confrimación en los campos solicitados. |
+|3| El sistema muestra el menú principal donde el usuario puede seleccionar diversas acciones. |
+|4| El usuario sale de la aplicación. |
 |Postcondición| La información del usuario se guardará en la base de datos. | 
 
 |Excepciones| |
 |---|---|
-|1|El usuario no puede ingresar un ID que ya esté en uso, por lo que deberá ingresar uno que no esté en la base de datos.  |
+|1|El usuario ingresa un ID que ya esté en uso. Este no se podrá, por lo que deberá ingresar uno que no esté en la base de datos.  |
 |2| El usuario ingresa un ID que contiene caracteres como “@” o “#”. Este ID será invalido. |
-|3| El usuario ingresa un ID que contiene caracteres como “@” o “#”. Este ID será invalido. |
+|3| El usuario ingresa un ID que contiene menos de tres caracteres. Este ID será invalido. |
 |4| El usuario cierra la aplicación sin finalizar el registro, por lo que tendrá que completarlo la próxima vez que ejecute la aplicación. |
-|5| El usuario cierra la aplicación sin finalizar el tutorial, por lo que tendrá que completarlo la próxima vez que inicie el juego con su cuenta. |
 
 
 ***Caso de uso No.2***
