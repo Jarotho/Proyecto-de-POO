@@ -14,27 +14,23 @@
 
 |RF003| Preguntas |
 |---|---|
-|Descripción| El sistema contendrá para cada personaje una serie de preguntas las cuales el usuario deberá responder correctamente para acumular experiencia, y con ello, ir desbloqueando ese y nuevos personajes. Todas las preguntas serán de opción múltiple.|
+|Descripción| El sistema contendrá para cada personaje una serie de preguntas las cuales el usuario deberá responder correctamente para acumular experiencia, y con ello, ir desbloqueando trofeos. Todas las preguntas serán de opción múltiple.|
 |Comentarios| Solamente existirán preguntas de opción múltiple. |  
+|  
 
-|RF004|Desbloquear personajes |
+|RF004| Álbum de personajes |
 |---|---|
-|Descripción| El usuario podrá desbloquear el personaje al responder cierto número de preguntas de manera correcta, el desbloquear un personaje y obtener cierta puntuación por medio de las preguntas podrá desbloquear imágenes en la sección de álbum junto con el personaje.|
-|Comentarios| Los personajes se podrán desbloquear uno por uno de forma lineal |  
-
-|RF005| Álbum de personajes |
-|---|---|
-|Descripción| El programa contendrá un apartado donde el usuario puede observar los personajes desbloqueados junto con las imágenes recibidas con determinada puntuación, en este apartado el usuario puede seleccionar de los personajes desbloqueados y el programa mostrará información de ese personaje y dará la opción de revisar unas flashcards |
+|Descripción| El programa contendrá un apartado donde el usuario puede observar los personajes junto con información relevante de ellos y sus respectivos trofeos |
 |Comentarios| El álbum puede recibir más actualizaciones para incluir más recompensas o retirar algunas |  
 
-|RF006| Experiencia |
+|RF005| Experiencia |
 |---|---|
 |Descripción| Las preguntas tendrán cierto número de puntuación la cual se acumulará como experiencia para la cuenta del usuario, esta permitirá entre otras cosas desbloquear imágenes exclusivas y se utilizará para los rankings |
 |Comentarios| La experiencia es una forma de ofrecer al usuario re jugabilidad ofreciendo recompensas y obtener un mayor ranking |  
 
-|RF007| Rankings |
+|RF006| Rankings |
 |---|---|
-|Descripción| El usuario podrá acceder a una pestaña la cual le permitirá observar su ranking con respecto a otros usuarios del programa mediante la experiencia obtenida. |
+|Descripción| El usuario podrá acceder a una pestaña la cual le permitirá observar su ranking con respecto a otros usuarios del programa  |
 |Comentarios| El usuario puede subir de ranking únicamente por medio de la experiencia obtenida |  
 
 ## No funcionales
