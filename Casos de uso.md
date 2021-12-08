@@ -13,7 +13,7 @@ __Secuencia principal__
 |Pasos| Secuencia |
 |---|---|
 |1| El usuario ingresa por primera vez al sistema, este le muestra en pantalla los campos requeridos para crear una cuenta. |
-|2| El usuario ingresa un ID y una contraseña con su confrimación en los campos solicitados. |
+|2| El usuario ingresa un ID y una contraseña en los campos solicitados. |
 |3| El sistema muestra el menú principal donde el usuario puede seleccionar diversas acciones. |
 |4| El usuario sale de la aplicación. |
 |Postcondición| La información del usuario se guardará en la base de datos. | 
