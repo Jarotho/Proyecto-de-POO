@@ -1,6 +1,6 @@
 # Reunión 1 (28/09/2021)
 ## Asistentes:
-_Wilberth Manzur_  
+_Wilbert Manzur_  
 
 _Jaroth Moo_  
 
@@ -22,7 +22,7 @@ Definir en qué plataforma se elaborará el programa.
 
 # Reunión 2 (29/09/2021)
 ## Asistentes:
-_Wilberth Manzur_  
+_Wilbert Manzur_  
 
 _Jaroth Moo_  
 
@@ -43,7 +43,7 @@ Utilizar diferentes fotos de perfil como incentivo para seguir jugando.
 
 # Reunión 3 (01/10/2021)
 ## Asistentes:
-_Wilberth Manzur_  
+_Wilbert Manzur_  
 
 _Jaroth Moo_  
 
@@ -61,7 +61,7 @@ Dar mayor prioridad a aquellas clases que manejan los datos más relevantes para
  
 # Reunión 4 (08/10/2021)
 ## Asistentes:
-_Wilberth Manzur_  
+_Wilbert Manzur_  
 
 _Jaroth Moo_  
 
@@ -83,7 +83,7 @@ Se optó por hacer que se le asignará una foto de perfil al usuario que no se p
 
 # Reunión 5 (21/10/2021)
 ## Asistentes:
-_Wilberth Manzur_  
+_Wilbert Manzur_  
 
 _Jaroth Moo_  
 
@@ -103,7 +103,7 @@ El tipo de base de datos que se utilizará es relacional
 
 # Reunion 6 (11/11/2021)
 ## Participantes
-_Wilberth Manzur_  
+_Wilbert Manzur_  
 
 _Jaroth Moo_  
 
@@ -117,7 +117,7 @@ Se pudo realizar la prueba de un ejemplo utilizando Eclipse y Hibernate. Se not�
 Decidir por cual IDE se va a desarrollar el sistema, ya sea Netbeans o Eclipse.
 # Reunion 7 (18/11/2021)
 ## Participantes
-_Wilberth Manzur_  
+_Wilbert Manzur_  
 
 _Jaroth Moo_  
 
@@ -133,7 +133,7 @@ Evitar actividades duplicadas.
 Integrar lo investigado para poder escribir el código del proyecto.
 
 # Reunion 8 (25/11/2021)
-_Wilberth Manzur_  
+_Wilbert Manzur_  
 
 _Jaroth Moo_  
 
