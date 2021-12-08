@@ -21,9 +21,8 @@ __Secuencia principal__
 |Excepciones| |
 |---|---|
 |1| El usuario ingresa un ID que ya está en uso. Este será denegado, por lo que deberá ingresar uno que no esté en la base de datos.  |
-|2| El usuario ingresa un ID que contiene caracteres como “@” o “#”. Este ID será invalido. |
-|3| El usuario ingresa un ID que contiene menos de tres caracteres. Este no será permitido|
-|4| El usuario cierra la aplicación sin finalizar el registro, por lo que tendrá que completarlo la próxima vez que ejecute la aplicación. |
+|2| El usuario ingresa un ID que contiene menos de tres caracteres. Este no será permitido|
+|3| El usuario cierra la aplicación sin finalizar el registro, por lo que tendrá que completarlo la próxima vez que ejecute la aplicación. |
 
 
 ***Caso de uso No.2***
