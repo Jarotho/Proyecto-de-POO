@@ -60,7 +60,7 @@ __Secuencia principal__
 
 ***Caso de uso No.3***
 
-|Caso de uso| Visualizar el Álbum |
+|Caso de uso| Visualizar el Álbum y desbloquear trofeos |
 |---|---|
 |Actores| Usuario, base de datos, sistema |
 |Propósito| Hacer que el usuario observe información y datos curiosos del personaje, al igual que sus trofeos |
